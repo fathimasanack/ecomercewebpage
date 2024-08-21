@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="bg-white  w-full uppercase tracking-[0.22px] md:text-[15px] py-11 px-5">
+        <div class=" container mx-auto flex flex-row justify-between items items-center">
+            <div>
+                <img class="w-20" class="" src="./images/608-6083687_girl-shopping-logo-design-removebg-preview.png" alt="">
+
+            </div>
+            <ul class ="hidden md:flex flex-row gap-8  justify-end items-center">
+                <li><a  href="">Catalogue</a></li>
+                <li><a  href="">Fashion</a></li>
+                <li><a  href="">Favourite</a></li>
+                <li><a  href="">Lifestyle</a></li>
+                <li class=""><a class="bg-black text-white rounded-md py-4 px-4" href="">Sign Up</a></li>
+            </ul>
+            <div class="md:hidden ">
+                <div class=" space-y-1 rotate-180" id="burger">
+                 <div class="w-6 h-0.5 bg-black"></div>
+                 <div class="w-6 h-0.5  bg-black"></div>
+                 <div class="w-6 h-0.5  bg-black"></div>
+                </div>
+                <ul class=" flex flex-col justify-start gap-5 h-screen absolute top-0 left-0 bg-primary p-10 items-start -translate-x-full " id="mobile-nav">
+                    <li><a href="">Catalogue</a></li>
+                    <li><a href="">Fashion</a></li>
+                    <li><a href="">Favourite</a></li>
+                    <li><a href="">Lifestyle</a></li>
+                    <li class=""><a href="">Sign Up</a></li>
+
+                </ul>
+            </div>
+
+
+        </div>
+    </nav>
+
+  <div class="px-40">
+    <section class=" flex flex-col container mx-auto bg-[#F4F6F5] rounded-[59px] pt-16 px-10 md:items-center md:px-20 md:pt-[68px] md:flex-row md:justify-between gap-10 z-30 w-30 border">
+        <div class="flex flex-col items-start text-black md:pc-[68px] z-10">
+            <h1 class="text-4xl font-black leading-[125%] sm:text-5xl md:text-[96px] md:leading-[125%]"><span class=" after:w[120%] after:h-full after:bg-red-400 after:block after:absolute after:-z-10 ">LET'S</span> <br> EXPLORE <br>
+            <span class="">UNIQUE</span><br>CLOTHES.</h1>
+            <P class="md:text-[32px]">Live for Influential and Innovative fashion</P>
+            <div class="flex flex-col md:flex-row md:items-center justify-evenly gap-9 pt-8"></div>
+            <a class ="bg-black text-white rounded-md py-4 px-4 text-center " href="">Shop Now</a>
+        </div>
+
+            <div>
+            <img  class="w-full " src="./images/banner-image.png " alt="">
+        </div>
+
+    </section>
+  </div>
+    <section class="flex flex-col justify-center items-center gap-[121px] my-16 bg-amber-600 py-[61px] md:flex-row">
+        <div class="w-[118px]"><img src="./images/amazon.png" alt=""></div>
+        <div class="w-[118px]"><img src="./images/hm.png" alt=""></div>
+        <div class="w-[118px]"><img src="./images/lacoste.png" alt=""></div>
+        <div class="w-[118px]"><img src="./images/levis.png" alt=""></div>
+        <div class="w-[118px]"><img src="./images/obey.png" alt=""></div>
+        <div class="w-[118px]"><img src="./images/shopify.png" alt=""></div>
+    </section>
+    <!-- <section class="flex flex-col container items-start gap-28 mx-auto px-[10x]">
+        <div class="relative text-black">
+            <h2 class="text-4xl font-black after:content-oval after:absolute after:left-[50%] after:-bottom-2.5 after:z-10 md:text-5xl mx-10">
+                NEW ARRIVALS
+            </h2>
+        </div>
+   
+        <div class="card flex px-3">
+            <div class="crd px-5">
+                <div><img src="./images/hoddiee.png" alt="" class="w-full rounded-3xl"></div>
+                <div class="text-2xl"><h3 class="font-black">Hoodies &Sweetshirt</h3>
+                <a href="" class="text-slate-400">Explore Now!</a></div>
+            </div>
+            <div class="crd px-5">
+                <div><img src="./images/coats.png" alt="" class="w-full rounded-3xl"></div>
+                <div  class="text-2xl"><h3 class="font-black">Coats & Parkas</h3>
+                <a href="" class="text-slate-400">Explore Now!</a></div>
+            </div>
+            <div class="crd px-5">
+                <div><img src="https://raw.githubusercontent.com/codewithpriyesh/Ecommerce-Landing-page/ad7c1bca93b0365b1a3515ac7430fff163c8392f/images/T-shirts.png" alt="" class="w-full rounded-3xl"></div>
+                <div class="text-2xl"><h3 class="font-black">Tees & T-Shirt</h3>
+                <a href="" class="text-slate-400">Explore Now!</a></div>
+            </div>
+        </div> 
+       
+    </section>
+         -->
+         <section class="flex flex-col container items-start gap-28 mx-auto px-[10px]">
+            <div class="relative text-black">
+                <h2
+                    class="text-4xl font-black after:content-oval after:absolute after:left-[50%] after:-bottom-2.5 after:-z-10 md:text-5xl">
+                    NEW ARRIVALS</h2>
+            </div>
+            <div class="grid grid-flow-row grid-row-1 gap-24 md:grid-flow-col md:grid-cols-3 ">
+                <!-- cards -->
+                <div class="flex flex-col w-full gap-7">
+                    <img class="w-full h-[704px] object-cover object-[75%] rounded-[20px] " src="./images/hoddiee.png" />
+                    <div class="flex flex-row justify-between items-center">
+                        <div class="flex flex-col">
+                            <h3 class="text-[32px] font-medium">Hoodies & Sweetshirt</h3>
+                            <a class="text-2xl text-[#7F7F7F]" href="#">Explore Now!</a>
+                        </div>
+                       
+                    </div>
+                </div>
+                <!-- cards -->
+                <div class="flex flex-col w-full gap-7">
+                    <img class="w-full h-[704px] object-cover object-[34%] rounded-[20px] " src="./images/coats.png" />
+                    <div class="flex flex-row justify-between items-center">
+                        <div class="flex flex-col">
+                            <h3 class="text-[32px] font-medium">Coats & Parkas</h3>
+                            <a class="text-2xl text-[#7F7F7F]" href="#">Explore Now!</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- cards -->
+                <div class="flex flex-col w-full gap-7">
+                    <img class="w-full h-[704px] object-cover object-[47%] rounded-[20px] " src="https://raw.githubusercontent.com/codewithpriyesh/Ecommerce-Landing-page/ad7c1bca93b0365b1a3515ac7430fff163c8392f/images/T-shirts.png" />
+                    <div class="flex flex-row justify-between items-center">
+                        <div class="flex flex-col">
+                            <h3 class="text-[32px] font-medium">Tees & T-Shirt</h3>
+                            <a class="text-2xl text-[#7F7F7F]" href="#">Explore Now!</a>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="flex flex-col container items-start   my[190px] gap-28 mx-auto">
+            <div class="relative text-black">
+                <h2
+                    class="text-4xl font-black after:content-oval after:absolute after:left-[50%] after:-bottom-2.5 after:-z-10 md:text-5xl">
+                    Young's Favourite</h2>
+            </div>
+        </section> -->
+        <section class="flex flex-col container items-start my-[190px] gap-28 mx-auto px-20">
+            <div class="relative text-black">
+                <h2
+                    class="text-4xl font-black after:content-oval after:absolute after:left-[50%] after:-bottom-2.5 after:-z-10 md:text-5xl">
+                    Young’s Favourite</h2>
+            </div>
+            <div class="grid grid-flow-row grid-row-1 gap-24 md:grid-flow-col md:grid-cols-2">
+                <div class="flex flex-col w-full gap-7">
+                    <div class="">
+                        <img class="w-full h-[704px] object-cover object-[25%] rounded-[20px]" src="./images/fav-1 (1).png" alt="">
+
+                    </div>
+                    <div class="flex flex-row justify-between items-center">
+                        <div class="flex flex-col">
+                            <h3 class="text-[32px] font-medium">Trending on instagram</h3>
+                            <a class="text-2xl text-[#7f7f7f]" href="">Explore Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col w-full gap-7">
+                    <div class="">
+                        <img class="w-full h-[704px] object-cover object-[25%] rounded-[20px]" src="./images/fav-2.png" alt="">
+
+                    </div>
+                    <div class="flex flex-row justify-between items-center">
+                        <div class="flex flex-col">
+                            <h3 class="text-[32px] font-medium">Trending on instagram</h3>
+                            <a class="text-2xl text-[#7f7f7f]" href="">Explore Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </section>
+            <section class="container mx-auto flex flex-col my-[190px] gap-28 md:flex-row md:justify-evenly md:items-center px-20 ">
+                <div class="flex flex-1 flex-col items-center text-center md:items-start">
+                    <h4 class="text-4xl md:text-5xl font-black tracking-[3px] leading-[130%] md:leading-[150%] mb-10">DOWNLOAD APP & <br> GET THE VOUCHER</h4>
+                    <P class="text-2xl font-medium leading-9 text-[#7c7c7c]">Get 30% off for first transaction using<br>Rondovision mobile app for now.</P>
+                    <div class="flex flex-col md:flex-row gap-5 mt-16">
+                        <img class="w-[204px]" src="./images/apple-store.png" alt="">
+                        <img class="w-[204px]" src="./images/play-store.png" alt="">
+
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <img src="./images/mobile-app.png" alt="">
+                </div>
+            </section>
+            <section class="flex flex-col items-center py-36 bg-amber-500">
+                <h4 class="text-3xl font-black text-white text-center tracking-[1.7px] mb-8 md:leading-[70px] md:text-[55px]">JOIN SHOPPING COMMUNITY <br> GET MONTHLY PROMO</h4>
+                <P CLASS="text-xl text-center text-white font-normal  tracking-[1px] md:text-[32px] md:leading-9">Type Your email down below and be young wild generation</P>
+                <form class="mt-12">
+                    <div class="bg-white rounded-[10px] flex flex-row items center">
+                        <input class="px-4 py-5 rounded-[10px] focus-within:outline-0 md:py-6 md:px-7" type="email"
+                        name = "email"placeholder="type your email here">
+                        <button class="py-2 px-4 bg-black text-white uppercase md:text-[33px] md:py-[5px] md:px-[20px] rounded-lg mr-2" type="submit">send</button>
+                    </div>
+                </form>
+            </section>
+            <footer class="bg-black py-[125px] text-white flex flex-col gap-24 md:items-center md:gap-[415px] md:flex-row md:justify-between md:px-[100px]">
+                <div class="flex flex-col items-start gap-8">
+                    <div>
+                        <img class="w-20" src="./images/608-6083687_girl-shopping-logo-design-removebg-preview.png" alt="">
+                    
+                </div>
+                <div>
+                <p class="text-xl text-blue-200 md:text-2xl font-normal"> Complete Your style with awesome <br>clothes from us.</p>
+            </div>
+            <ul class="flex flex-row gap-[14px]">
+                <li><a href=""><img src="./images/insta.svg" alt=""></a></li>
+                <li><a href=""><img src="./images/fb.svg" alt=""></a></li>
+                <li><a href=""><img src="./images/linkedin.png" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="flex flex-col gap-[50px] md:gap-[188px] md:flex-row">
+            <div class="flex flex-col gap-8 text-gray-300">
+                <h4 class="font-bold">Company</h4>
+                <ul class=" flex flex-col gap-8">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">ContactUs</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Carrers</a></li>
+                </ul>
+            </div>
+        
+            <div class="flex flex-col gap-8 text-gray-300">
+                <h4 class="font-bold">Quick link</h4>
+                <ul class=" flex flex-col gap-8">
+                    <li><a href="">shareLocation</a></li>
+                    <li><a href="">OrdersTracking</a></li>
+                    <li><a href="">sizeGuide</a></li>
+                    <li><a href="">FAQs</a></li>
+                </ul>
+            </div>
+       
+            <div class="flex flex-col gap-8 text-gray-300">
+                <h4 class="font-bold">Legal</h4>
+                <ul class=" flex flex-col gap-8">
+                    <li><a href="">Terms&conditions</a></li>
+                    <li><a href="">privacy ploicy</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+            </footer>
+</body>
+</html>
